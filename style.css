@@ -35,6 +35,7 @@ body{
     width: 50px;
 }
 
+/* Area Esquerda */
 .left{
     height: 635px;
     position: relative;
@@ -46,7 +47,9 @@ body{
     bottom: 68px;
     left: 119px;
 }
+/* FimArea Esquerda */
 
+/* Area Direita */
 .right{
     padding-left: 20px;
 }
@@ -77,7 +80,7 @@ input[type="password"], input[type="text"]{
     margin-top: 10px;
     padding: 10px;
     font-size: 13px;
-    width: 320;
+    width: 320px;
     color: #000000;
 }
 
@@ -88,4 +91,37 @@ input[type="password"]::placeholder, input[type="text"]::placeholder{
 input[type="password"]:focus, input[type="text"]:focus{
     outline: 0;
     border: 1px solid #a1a1a1;
+}
+
+input[type="submit"]{
+    width: 320px;
+    margin-top: 10px;
+    height: 30px;
+    border: 0;
+    background-color: #3c96ed;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.infobox{
+    background-color: #FFFFFF;
+    height: 60px;
+    border: 1px solid rgb(236, 234, 234);
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infobox p{
+    user-select: none;
+}
+
+.infobox p a{
+    font-weight: bold;
+    user-select: none;
 }
