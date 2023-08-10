@@ -139,3 +139,28 @@ input[type="submit"]{
     height: 40px;
     padding: 0 2px;
 }
+/* Fim Area Direita */
+
+/* Rodape */
+footer{
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+
+footer a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small{
+    font-size: 12px;
+    font-weight: bold;
+    color: #a1a1a1;
+    text-transform: uppercase;
+    padding-left: 20px;
+    display: inline-block;
+}
+
